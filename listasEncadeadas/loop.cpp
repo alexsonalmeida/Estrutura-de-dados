@@ -15,7 +15,6 @@ class ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {} 
 };
 
- 
 ListNode* readList(){
     int n, x;
     cin >> n >> x;

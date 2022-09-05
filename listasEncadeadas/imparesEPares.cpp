@@ -27,7 +27,6 @@ void printList(ListNode * head) {
 }
 
 ListNode* oddEvenList(ListNode* head) {
-    //ListNode* no = new ListNode(head->val);
     ListNode* curr = nullptr;
     ListNode* no = nullptr;
     ListNode*head2 = nullptr;
@@ -62,21 +61,7 @@ ListNode* oddEvenList(ListNode* head) {
         }
 
     }
-
-    
-    //printList(head2);
     return head2;
-    /*
-    while (curr != nullptr) {
-        if (c % 2 == 0) {
-            no = new ListNode(curr->val, no);
-            curr = curr->next;
-        }
-        curr = curr->next;
-        c++;
-    }*/
-
-    //cout << head-> val;
 }
 
 int main() {

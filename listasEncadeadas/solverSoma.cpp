@@ -15,7 +15,6 @@ class ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {} 
 };
 
- 
 ListNode* readList(){
     int n;
     cin >> n;
@@ -66,7 +65,6 @@ ListNode* someUm(ListNode *head){
                 vector<int> vet;
                 int i = 0; 
                  
-
                 while (curr != nullptr) {
                     vet.push_back(curr->val);
                     curr = curr->next;

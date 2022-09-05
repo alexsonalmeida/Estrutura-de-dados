@@ -57,8 +57,6 @@ int listaMaior(ListNode* lis1, ListNode* lis2) {
     }
 }
 
-
-
 ListNode * intersectionList(ListNode * head1, ListNode * head2) {
     int listIdentifier = listaMaior(head1, head2);
     ListNode* maiorLista = nullptr;
